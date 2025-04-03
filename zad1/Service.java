@@ -19,7 +19,7 @@ public class Service {
         this.code = getCode();
     }
 
-    private static final String API_KEY = "84ebb28ad0fc092dfcafd48af85022aa";
+    private static final String API_KEY = "ApiKey";
 
     public String getWeather(String city) {
         String koordy = getCoordinates(city);
